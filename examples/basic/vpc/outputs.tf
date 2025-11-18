@@ -1,4 +1,4 @@
 output "vpc_ids" {
-  description = "IDs of created VPCs"
+  description = "Map of VPC IDs keyed by VPC name."
   value       = module.vpc.vpc_ids
 }

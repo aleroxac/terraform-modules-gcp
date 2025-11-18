@@ -1,4 +1,4 @@
 output "subnet_ids" {
-  description = "IDs of created subnets"
+  description = "Map of subnet IDs keyed by subnet name."
   value       = module.subnet.subnet_ids
 }
