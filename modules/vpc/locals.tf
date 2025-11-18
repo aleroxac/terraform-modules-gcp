@@ -1,20 +1,16 @@
 locals {
-
-  # Labels EXATAMENTE como o user forneceu
+  # Original labels provided by the user
   base_labels = var.labels
 
-  # GCP Resource Manager Tags:
-  # precisam ser transformadas em:
-  # "tagKeys/<key>" = "tagValues/<val>"
+  # GCP Resource Manager Tags: "tagKeys/<key>" = "tagValues/<val>"
   resource_manager_tags = {
     for k, v in var.labels :
     "tagKeys/${k}" => "tagValues/${v}"
   }
 
-  # AWS-style tags (se você quiser multi-cloud):
+  # AWS-style tags
   aws_tags = [
     for k, v in var.labels :
     { key = k, value = v }
   ]
-
 }
