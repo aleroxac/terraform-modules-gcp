@@ -3,16 +3,13 @@ Project with terraform modules to provision GCP infrastructure resources.
 
 
 
-## Modules Available
-- networking
-    - [vpc](modules/networking/vpc)
-    - [subnet](modules/networking/subnet)
-    - [nat](modules/networking/nat)
-- apis
-    - [project-service](modules/apis/project-service)
-- gke
-    - [cluster](modules/gke/cluster)
-    - [nodepool](modules/gke/nodepool)
+## Modules
+- [vpc](modules/vpc)
+- [subnet](modules/subnet)
+- [nat](modules/nat)
+- [project-service](modules/project-service)
+- [cluster](modules/gke-cluster)
+- [nodepool](modules/gke-nodepool)
 
 
 
