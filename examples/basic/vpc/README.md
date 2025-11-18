@@ -14,13 +14,13 @@ This example demonstrates how to use the `vpc` module to create a single VPC on 
 terraform init
 
 ## Plan
-terraform plan -var="project_id=my-gcp-project"
+terraform plan
 
 ## Apply
-terraform apply -var="project_id=my-gcp-project"
+terraform apply
 
 ## Destroy
-terraform destroy -var="project_id=my-gcp-project"
+terraform destroy
 ```
 
 ## Notes
