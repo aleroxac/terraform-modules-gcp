@@ -1,10 +1,5 @@
 variable "subnets" {
-  description = <<EOT
-Map of subnets to create. Each subnet can be:
-- public or private (for tagging, routing, or naming)
-- optionally contain one or more secondary IP ranges
-EOT
-
+  description = "Map of Subnets to create (leave empty to skip creation)"
   type = map(object({
     vpc_name        = string
     region          = string
