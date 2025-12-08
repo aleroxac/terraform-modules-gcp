@@ -1,6 +1,6 @@
 # Workspace Setup
 
-## Things that we will suppose that you alredy have
+## Things that we will suppose that you already have
 - [x] A GCP account created
 - [x] A GCP IAM user created, and with all the required permissions
 - [x] A GCS bucket created to can store all the tfstate files

@@ -7,6 +7,8 @@ Project with terraform modules to provision GCP infrastructure resources.
 - [vpc](modules/vpc)
 - [subnet](modules/subnet)
 - [nat](modules/nat)
+- [router](modules/router)
+- [address](modules/address)
 - [project-service](modules/project-service)
 - [cluster](modules/gke-cluster)
 - [nodepool](modules/gke-nodepool)
