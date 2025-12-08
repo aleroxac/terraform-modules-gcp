@@ -1,6 +1,5 @@
 variable "vpcs" {
-  description = "Map of VPCs to create. Each key represents the VPC name, and the object defines its properties. When empty, no VPCs are created."
-
+  description = "Map of VPCs to create (leave empty to skip creation)"
   type = map(object({
     project                 = string
     auto_create_subnetworks = optional(bool, false)

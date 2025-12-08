@@ -25,5 +25,4 @@ terraform destroy
 
 ## Notes
 * Labels provided to the module are automatically converted into `resource_manager_tags` when the target resource supports them.
-* This example creates only the VPC; subnets, NAT, routers, and other networking components must be created using their respective modules.
-* Use this example as a foundation for more advanced or combined scenarios.
+* This example creates only the VPC; other networking components must be created using their respective modules.
