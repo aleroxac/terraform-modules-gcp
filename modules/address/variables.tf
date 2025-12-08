@@ -1,9 +1,9 @@
 variable "ips" {
+  description = "Map of IP addresses to create (leave empty to skip creation)"
   type = map(object({
     project = string
     region = string
   }))
-  description = "Map of IP addresses to create (leave empty to skip creation)"
   default = {}
 }
 
