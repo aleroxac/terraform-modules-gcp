@@ -1,4 +1,4 @@
-# Module: subnet
+# Module: router
 
 ## Overview
 This module manages routers on GCP.

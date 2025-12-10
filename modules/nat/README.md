@@ -1,4 +1,4 @@
-# Module: subnet
+# Module: nat
 
 ## Overview
 This module manages NATs on GCP.
