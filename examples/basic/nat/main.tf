@@ -1,5 +1,5 @@
 module "nat" {
-  source = "github.com/aleroxac/terraform-modules-gcp//modules/router?ref=v1.0.0"
+  source = "github.com/aleroxac/terraform-modules-gcp//modules/nat?ref=v1.0.0"
 
   nats = {
     example-nat = {

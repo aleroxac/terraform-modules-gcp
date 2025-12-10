@@ -6,7 +6,7 @@ It is part of the `terraform-modules-gcp` collection.
 
 ## Usage
 ``` hcl
-module "subnet" {
+module "router" {
   source = "github.com/aleroxac/terraform-modules-gcp//modules/router?ref=v1.0.0"
 
   routers = {
