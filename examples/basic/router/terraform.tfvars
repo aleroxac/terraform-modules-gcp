@@ -1,3 +1,3 @@
 project_id = "demo-project"
 region = "us-east1"
-vpc_name = "vpc-demo"
+vpc_name = "example-vpc"
